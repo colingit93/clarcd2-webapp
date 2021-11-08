@@ -1,7 +1,8 @@
 // Zuerste Variablen und Parameter definieren
 // App Service Plan brauch eindeutigen Namen deswegen verwende ich die ressourcen Gruppen 
 // ID, welche später bei der variable für den App Service Plan Namen angehängt wird
-param webAppName string = uniqueString(resourceGroup().id)
+param webAppName string = 'v001'
+// param webAppName string = uniqueString(resourceGroup().id)
 param sku string = 'P1V2' // APP Service Plan SKU (Tier)
 param linuxFxVersion string = 'node|14-lts' // Node Applikation
 param location string = resourceGroup().location // Location gleich wie bei der Ressourcengruppe
