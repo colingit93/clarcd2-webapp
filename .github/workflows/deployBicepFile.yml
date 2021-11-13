@@ -67,6 +67,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'jochumclarcd-v001'
+          app-name: 'jochumclarcd-testing2021'
           slot-name: 'Production'
           package: .
