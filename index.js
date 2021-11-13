@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("CLARCD2 Colin Jochum FH-JOANNEUM Web App v0.008");
+    response.end("CLARCD2 Colin Jochum FH-JOANNEUM Web App v0.010");
 });
 
 const port = process.env.PORT || 1337;
